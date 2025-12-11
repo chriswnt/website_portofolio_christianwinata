@@ -703,7 +703,7 @@ Selain itu, artikel ini mengaitkan isu tersebut dengan hak dan kewajiban warga n
   variants={fadeUp}
   initial="hidden"
   whileInView="visible"
-  viewport={{ once: false, amount: 0.3 }}
+ 
 >
 
   {/* Ornamen lembut background */}
