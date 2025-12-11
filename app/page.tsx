@@ -1,28 +1,29 @@
 "use client";
 
 import { useState } from "react";   
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { modules } from "./modul-mingguan/modulesData";
 
 // VARIAN ANIMASI
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6 }, // ease dihapus biar tipe aman
   },
 };
 
-const fadeIn = {
+const fadeIn: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8 }, // sama, tanpa ease string
   },
 };
+
 
 // mapping gambar per modul (pakai slug)
 const moduleImages: Record<string, string> = {
