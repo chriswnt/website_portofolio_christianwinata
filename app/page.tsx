@@ -705,6 +705,7 @@ Selain itu, artikel ini mengaitkan isu tersebut dengan hak dan kewajiban warga n
   whileInView="visible"
   viewport={{ once: false, amount: 0.3 }}
 >
+
   {/* Ornamen lembut background */}
   <div className="pointer-events-none absolute -left-40 top-10 h-72 w-72 rounded-full bg-teal-50/60 blur-3xl" />
   <div className="pointer-events-none absolute right-[-80px] bottom-0 h-80 w-80 rounded-full bg-sky-50/80 blur-3xl" />
