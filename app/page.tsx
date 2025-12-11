@@ -1004,9 +1004,65 @@ Selain itu, artikel ini mengaitkan isu tersebut dengan hak dan kewajiban warga n
       </div>
     </motion.article>
   </div>
-</motion.section>
 
+      </motion.section>
 
+{/* ================= FOOTER ================= */}
+<footer className="mt-20 border-t border-slate-200 bg-white/80 backdrop-blur py-10">
+        <div className="mx-auto max-w-6xl px-4 text-center space-y-4">
+          {/* Nama Website */}
+          <h3 className="text-sm font-semibold tracking-wide text-slate-700">
+            Christian Winata · Portofolio Kewarganegaraan
+          </h3>
+
+          {/* Sosial Media */}
+          <div className="flex items-center justify-center gap-4 text-sm flex-wrap">
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/christian_winatta/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 text-slate-600 hover:text-teal-600 transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-5 h-5"
+              >
+                <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-.2a1.3 1.3 0 100 2.6 1.3 1.3 0 000-2.6z" />
+              </svg>
+              @christian_winatta
+            </a>
+
+            {/* Email */}
+            <a
+              href="mailto:christian.wnt@gmail.com"
+              className="flex items-center gap-2 text-slate-600 hover:text-teal-600 transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                className="w-5 h-5"
+              >
+                <path d="M4 4c-1.1 0-2 .9-2 2v12a2 
+                2 0 002 2h16a2 2 0 002-2V6a2 
+                2 0 00-2-2H4zm0 2h16l-8 
+                5-8-5zm0 3.236l7.445 
+                4.653a1 1 0 001.11 0L20 
+                9.236V18H4V9.236z" />
+              </svg>
+              chriswinata27@gmail.com
+            </a>
+          </div>
+
+          {/* Copyright */}
+          <p className="text-xs text-slate-500">
+            © {new Date().getFullYear()} Christian Winata — All Rights Reserved.
+          </p>
+        </div>
+      </footer>
     </main>
   );
 }
